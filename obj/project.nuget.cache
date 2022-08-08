@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QWpmntq/hRaLuY8w3r8cDYZbz00ziqSOTz8mUWTJMhUwUGXzjRKCk8I39MfwBJa1XxKzEwDOLL/DNCjGavgNyg==",
+  "success": true,
+  "projectFilePath": "/home/ferret/GIT/Scorpion-AES/Scorpion_Aes.csproj",
+  "expectedPackageFiles": [
+    "/home/ferret/.nuget/packages/easyencrypt/2.2.1/easyencrypt.2.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}
