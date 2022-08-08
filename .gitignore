@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+vs/
+*.lock
+*.exe
+*.cache
+!spec/*.exe
+!spec/**/*.exe
+!spec/**/**/*.exe
+!spec/*.cache
+!spec/**/*.cache
+!spec/**/**/*.cache
+!spec/*.json
+!spec/**/*.json
+!spec/**/**/*.json
