@@ -38,11 +38,28 @@ namespace ScorpionAES
 
     public static class ScorpionAESInHouse
     {
-        public static byte[] encrypt(string plainText, byte[] Key, byte[] IV)
+        public static void exportNewKey(string path)
+        {
+            //Generate random bytes for key
+            byte[] b_key = new byte[0x10];
+            Random rnd = new Random((int)DateTime.Now.Ticks);
+            rnd.NextBytes(b_key);
+
+            //Save key to file
+            File.WriteAllBytes(path, b_key);
+            return;
+        }
+
+        public static byte[] importKey(string path)
+        {
+            return File.ReadAllBytes(path);
+        }
+
+        public static byte[] encrypt(string data, byte[] Key, byte[] IV)
         {
             // Check arguments.
-            if (plainText == null || plainText.Length <= 0)
-                throw new ArgumentNullException("plainText");
+            if (data == null || data.Length <= 0)
+                throw new ArgumentNullException("data");
             if (Key == null || Key.Length <= 0)
                 throw new ArgumentNullException("Key");
             if (IV == null || IV.Length <= 0)
@@ -67,7 +84,7 @@ namespace ScorpionAES
                         using (StreamWriter swEncrypt = new StreamWriter(csEncrypt))
                         {
                             //Write all data to the stream.
-                            swEncrypt.Write(plainText);
+                            swEncrypt.Write(data);
                         }
                         encrypted = msEncrypt.ToArray();
                     }
@@ -78,11 +95,11 @@ namespace ScorpionAES
             return encrypted;
         }
 
-        public static string decrypt(byte[] cipherText, byte[] Key, byte[] IV)
+        public static string decrypt(byte[] data, byte[] Key, byte[] IV)
         {
             // Check arguments.
-            if (cipherText == null || cipherText.Length <= 0)
-                throw new ArgumentNullException("cipherText");
+            if (data == null || data.Length <= 0)
+                throw new ArgumentNullException("data");
             if (Key == null || Key.Length <= 0)
                 throw new ArgumentNullException("Key");
             if (IV == null || IV.Length <= 0)
@@ -103,7 +120,7 @@ namespace ScorpionAES
                 ICryptoTransform decryptor = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV);
 
                 // Create the streams used for decryption.
-                using (MemoryStream msDecrypt = new MemoryStream(cipherText))
+                using (MemoryStream msDecrypt = new MemoryStream(data))
                 {
                     using (CryptoStream csDecrypt = new CryptoStream(msDecrypt, decryptor, CryptoStreamMode.Read))
                     {
@@ -117,7 +134,6 @@ namespace ScorpionAES
                     }
                 }
             }
-
             return plaintext;
         }
     }
