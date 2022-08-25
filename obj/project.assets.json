@@ -38,11 +38,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ferret/GIT/Scorpion-AES/Scorpion_Aes.csproj",
-      "projectName": "Scorpion_Aes",
-      "projectPath": "/home/ferret/GIT/Scorpion-AES/Scorpion_Aes.csproj",
+      "projectUniqueName": "/home/ferret/GIT/Squirrel/Squirrel-AES/Squirrel-AES.csproj",
+      "projectName": "Squirrel-AES",
+      "projectPath": "/home/ferret/GIT/Squirrel/Squirrel-AES/Squirrel-AES.csproj",
       "packagesPath": "/home/ferret/.nuget/packages/",
-      "outputPath": "/home/ferret/GIT/Scorpion-AES/obj/",
+      "outputPath": "/home/ferret/GIT/Squirrel/Squirrel-AES/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ferret/.nuget/NuGet/NuGet.Config"
