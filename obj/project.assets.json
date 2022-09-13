@@ -38,11 +38,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ferret/GIT/Squirrel/Squirrel-AES/Squirrel-AES.csproj",
+      "projectUniqueName": "/home/ferret/GIT/Squirrel_Project/Squirrel-AES/Squirrel-AES.csproj",
       "projectName": "Squirrel-AES",
-      "projectPath": "/home/ferret/GIT/Squirrel/Squirrel-AES/Squirrel-AES.csproj",
+      "projectPath": "/home/ferret/GIT/Squirrel_Project/Squirrel-AES/Squirrel-AES.csproj",
       "packagesPath": "/home/ferret/.nuget/packages/",
-      "outputPath": "/home/ferret/GIT/Squirrel/Squirrel-AES/obj/",
+      "outputPath": "/home/ferret/GIT/Squirrel_Project/Squirrel-AES/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ferret/.nuget/NuGet/NuGet.Config"
@@ -80,7 +80,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -89,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/ferret/.dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }

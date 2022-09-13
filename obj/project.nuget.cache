@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7M2Xb4grg4lOjyaJnzBp49UekbUaL1HFxGFIShxidVoH71R/f2pPqc91tkPJOprAl5BukRFsVFlBESjb/T6DaQ==",
+  "dgSpecHash": "AbIPfTGR+hdxk2H1JBdpC4ueUCdCeubiYQFknrWnVauMClns+y8iFKx3h+30s4YO4ppssbMfOHK4m/bg919gAg==",
   "success": true,
-  "projectFilePath": "/home/ferret/GIT/Squirrel/Squirrel-AES/Squirrel-AES.csproj",
+  "projectFilePath": "/home/ferret/GIT/Squirrel_Project/Squirrel-AES/Squirrel-AES.csproj",
   "expectedPackageFiles": [
     "/home/ferret/.nuget/packages/easyencrypt/2.2.1/easyencrypt.2.2.1.nupkg.sha512"
   ],

@@ -10,3 +10,15 @@
 /home/ferret/GIT/Squirrel/Squirrel-AES/obj/Debug/net6.0/Squirrel-AES.dll
 /home/ferret/GIT/Squirrel/Squirrel-AES/obj/Debug/net6.0/ref/Squirrel-AES.dll
 /home/ferret/GIT/Squirrel/Squirrel-AES/obj/Debug/net6.0/Squirrel-AES.pdb
+/home/ferret/GIT/Squirrel_Project/Squirrel-AES/bin/Debug/net6.0/Squirrel-AES.deps.json
+/home/ferret/GIT/Squirrel_Project/Squirrel-AES/bin/Debug/net6.0/Squirrel-AES.dll
+/home/ferret/GIT/Squirrel_Project/Squirrel-AES/bin/Debug/net6.0/Squirrel-AES.pdb
+/home/ferret/GIT/Squirrel_Project/Squirrel-AES/obj/Debug/net6.0/Squirrel-AES.csproj.AssemblyReference.cache
+/home/ferret/GIT/Squirrel_Project/Squirrel-AES/obj/Debug/net6.0/Squirrel-AES.GeneratedMSBuildEditorConfig.editorconfig
+/home/ferret/GIT/Squirrel_Project/Squirrel-AES/obj/Debug/net6.0/Squirrel-AES.AssemblyInfoInputs.cache
+/home/ferret/GIT/Squirrel_Project/Squirrel-AES/obj/Debug/net6.0/Squirrel-AES.AssemblyInfo.cs
+/home/ferret/GIT/Squirrel_Project/Squirrel-AES/obj/Debug/net6.0/Squirrel-AES.csproj.CoreCompileInputs.cache
+/home/ferret/GIT/Squirrel_Project/Squirrel-AES/obj/Debug/net6.0/Squirrel-AES.dll
+/home/ferret/GIT/Squirrel_Project/Squirrel-AES/obj/Debug/net6.0/ref/Squirrel-AES.dll
+/home/ferret/GIT/Squirrel_Project/Squirrel-AES/obj/Debug/net6.0/Squirrel-AES.pdb
+/home/ferret/GIT/Squirrel_Project/Squirrel-AES/obj/Debug/net6.0/refint/Squirrel-AES.dll
